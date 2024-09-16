@@ -12,7 +12,7 @@ console.log('age is ' + age);
 // Returns true if the age is 18 years or older. Otherwise, returns false.
 let result = undefined;
 
-(age >= 18) ? result = 'true' : result = 'false';
+(parseInt(age) >= 18) ? result = 'true' : result = 'false';
 
 // DO NOT CHANGE ANYTHING BELOW THIS LINE.
 console.log('result= ' + result);
